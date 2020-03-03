@@ -1,0 +1,181 @@
+
+
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.25rem;
+
+}
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.75rem;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size:1.75rem;
+  background-color: #EEE2DC;
+  color: #AC3B61;
+  text-align: center;
+  padding-bottom: 15px;
+}
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  background-color: #EEE2DC;
+  color: #AC3B61;
+  text-align: center;
+}
+p {
+  font-family: 'Alegreya', serif;
+  background-color: #EEE2DC;
+  color: #AC3B61;
+  font-size: 1.25em;
+}
+hr {
+  border-style: none;
+border-top-style: dotted;
+background-color: #EEE2DC;
+border-color: #AC3B61;
+border-width: 5px;
+width: 5%;
+}
+body {
+  background-color: #EEE2DC;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+  background-color: #123C69;
+  }
+li {
+  float: left;
+  font-size: 1.5em;
+}
+
+li a{
+  display: block;
+text-align: center;
+padding: 16px;
+text-decoration: none;
+      color: #EEE2DC;
+}
+
+li a:hover {
+  background-color: #EEE2DC;
+  color: #AC3B61;
+}
+.navbar {
+background-color: #123C69;
+}
+
+.PageHeader {
+  background-color: #123C69;
+  color: #EEE2DC;
+  height: 120px;
+  margin: 0;
+}
+.Logo {
+      position: absolute;
+      height: 100px;
+      top: 10px;
+      left: 10px;
+      }
+.Headshot {
+  width: 200px;
+  border-style: double;
+  border-color: #123C69;
+  margin: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Title {
+  Position: absolute;
+  background-color: #123C69;
+  color: #EEE2DC;
+  left: 35%;
+  top: 5px;
+}
+.Description {
+  Position: absolute;
+  background-color: #123C69;
+  color: #EEE2DC;
+  left: 35%;
+  top: 50px;
+
+}
+.About {
+  padding: 2.5%;
+}
+.RStyle {
+  padding: 2.5%;
+}
+.Expect {
+  padding: 2.5%;
+}
+.ContactDetails {
+  color: #AC3B61;
+  text-align: center;
+}
+.Map  {
+  text-align: center;
+    color: #AC3B61;
+}
+.Costs {
+  text-align: center;
+    color: #AC3B61;
+}
+.View {
+  color: #AC3B61;
+  text-align: center;
+}
+.Times {
+  color: #AC3B61;
+    text-align: center;
+}
+.Flex-Grid {
+  display: flex;
+  justify-content: space-between;
+}
+.col {
+flex: 1;
+}
+.views {
+  width: 75%;
+}
+.Button
+{
+  box-shadow: 0 0 0 2px #AC3B61;
+	background:linear-gradient(to bottom, #7892c2 5%, #123c69 100%);
+	background-color:#EEE2DC;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#EEE2DC;
+	font-size: 2ex;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #283966;
+
+}
+.Button:hover {
+	background:linear-gradient(to bottom, #123c69 5%, #7892c2 100%);
+	background-color:#123c69;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+.blogpic {
+  position: relative;
+  width: 60%;
+  left: 20%;
+}
+.blogcredit {
+  position: relative;
+  left: 20%;
+}
